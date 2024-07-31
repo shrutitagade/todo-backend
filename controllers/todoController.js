@@ -1,5 +1,5 @@
 // backend/controllers/todoController.js
-const Todo = require('../models/Todo');
+const Todo = require('../models/todo.js');
 
 exports.getTodos = async (req, res) => {
     try {
